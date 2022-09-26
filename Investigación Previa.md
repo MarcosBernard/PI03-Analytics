@@ -70,7 +70,7 @@ También se pueden usar como <b>compensación o premio</b> y cambiarse por otras
 
 > *Trade* en inglés significa comercio. Y es una palabra muy frecuente en ámbitos financieros. En bolsa mismamente, el *trading* es la compraventa de activos cotizados. Acciones, divisas, futuros... No es de extrañar que también se emplee este <b>vocabulario bursátil</b> en las criptomonedas, ya que uno de sus usos consiste en <b>vender y comprar criptodivisas</b> en función de su valor en dólares o euros.<br><br>
 Por su parte, <b>tradear</b> no deja de ser un anglicismo que equivale a invertir, vender o comprar criptodivisas. No confundir con la plataforma del mismo nombre dedicada a operaciones bursátiles, Forex y CFDs.
-<hr>
+<hr><hr>
 
 # <b>2. Exchange (criptomonedas)</b>
 
