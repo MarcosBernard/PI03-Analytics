@@ -1,6 +1,6 @@
 <hr>
 
-# <b>1. Ecosistema de las criptomonedas</b>
+# <b>1. [Ecosistema de las criptomonedas](https://blogthinkbig.com/criptomonedas-diccionario)</b>
 
 > Wallet, trade, token, Bitcoin, blockchain, exchange, Etherum...<br>
  El <b>*universo de las criptomonedas*</b> viene repleto de vocablos en inglés. Algunos son ya conocidos entre quienes están familiarizados con las <b>*finanzas y la economía*</b> en general. Otros conceptos vienen de la tecnología. Y un tercer grupo, directamente, ha surgido con las criptodivisas (criptomonedas). Sea como fuere, <b>*conviene conocerlos*</b> para saber en qué consiste el blockchain y los activos digitales.<br><br>
@@ -72,7 +72,7 @@ También se pueden usar como <b>compensación o premio</b> y cambiarse por otras
 Por su parte, <b>tradear</b> no deja de ser un anglicismo que equivale a invertir, vender o comprar criptodivisas. No confundir con la plataforma del mismo nombre dedicada a operaciones bursátiles, Forex y CFDs.
 <hr><hr>
 
-# <b>2. Exchange (criptomonedas)</b>
+# <b>2. [Exchange (criptomonedas)](https://www.youtube.com/watch?v=CpxC6qFqHxc)</b>
 
 > Plataforma o mercado virtual en la que podemos realizar intercambios de criptomonedas (comprar o vender).<br>
 Sirven como intermediarios y facilitan los movimientos financieros de los usuarios. En esta plataforma es donde se genera el precio de mercado que marca el valor de las criptomonedas en base a la oferta y la demanda.<br><br>
@@ -107,21 +107,34 @@ Entre los *exchanges* descentralizados más populares pueden mencionarse:<br>
 - Volúmenes de comercio
 - Confianza en la legitimidad de usuarios
 
-
-
-Bibliografía:
-* https://blogthinkbig.com/criptomonedas-diccionario
-* https://www.youtube.com/watch?v=CpxC6qFqHxc
-
 <hr>
 <hr>
 
-# <b>3. FTX</b>
+# <b>3. [FTX](https://en.wikipedia.org/wiki/FTX_(company))</b>
 > **FTX** es una plataforma de tipo *exchange* constituid en el país de Antigua y Barbuda, tiene su sede en Las Bahamas.<br>
-A partir de febrero de 2022, el volumen de intercambio diario tiene un promedio de $10 mil millones (doláres) y supera el millon de usuarios. FTX.US, está disponibles para los residentes de EE.UU.<br>FTX se fundó con el propósito de generar la mayor cantidad de riqueza posible para utilizarla en causas benéficas siguiendo el principio de *ganar para generar altruismo eficaz*
+A partir de febrero de 2022, el volumen de intercambio diario tiene un promedio de $10 mil millones (doláres) y supera el millon de usuarios. FTX.US, está disponibles para los residentes de EE.UU.<br>FTX se fundó con el propósito de generar la mayor cantidad de riqueza posible para utilizarla en causas benéficas siguiendo el principio de *ganar para generar [altruismo eficaz](https://es.wikipedia.org/wiki/Altruismo_eficaz)*
+<hr>
 
-Bibliografía:
+## 3.1. [API-FTX](https://docs.ftx.com/#overview)
+
+Códigos de ejemplo:<br>
+- [FTX-pythonAPI](https://github.com/ftexchange/ftx)
+- [FTX-C#API](https://github.com/ftexchange/FtxApi)
+- [FTX-C++API](https://github.com/ftexchange/ftx/tree/master/cpp)
+- [FTX-project-python](https://www.youtube.com/watch?v=1PV2tQa9VyI&t=91s)
+
+<hr><hr>
+
+# 4. Virtual Enviroments in Python
+> The venv module is the new default way of creating basic virtual environments for new Python versions > 3.3. If you dive into virtual environments, you’ll quickly realize that there are a multitude of tools out there such as “virtualenv“, “pyenv“, and many more.
+
+My recommendation for data scientists and beginners is the tool conda that comes with the Anaconda Python distribution. I’ve written an article about the concepts of virtual environments in Python, including a tutorial on how to use conda for your own projects:
+
+> Bibliografía:
 * https://blogthinkbig.com/criptomonedas-diccionario
 * https://www.youtube.com/watch?v=CpxC6qFqHxc
 * https://en.wikipedia.org/wiki/FTX_(company)
 * https://es.wikipedia.org/wiki/Altruismo_eficaz
+* https://help.ftx.com/hc/en-us/articles/360028807171-API-docs
+* https://pypi.org/project/python-dev-tools/
+* https://www.youtube.com/watch?v=PxysVcWXI_Q
