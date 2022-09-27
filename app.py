@@ -32,7 +32,8 @@ fig = go.Figure(data=[go.Candlestick(x=df['date'],
                 open=df['open'],
                 high=df['high'],
                 low=df['low'],
-                close=df['close'])])
+                close=df['close'])]
+                ,title='ETG/USD')
 fig.show()
 # Plot!
 st.plotly_chart(fig, use_container_width=True)
