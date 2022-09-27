@@ -22,7 +22,7 @@ markets = requests.get(url).json()
 
 # Historical data Etherium
 market_name = 'ETH/USD' # Select cryto currency
-resolution = 60*60*24 # Save time seconds
+resolution = 60*60*24*30 # Save time seconds
 #start = datetime.datetime(2022,1,1).timestamp()
 start = datetime.datetime(2022,1,1).timestamp()
 finish = datetime.datetime(2022,2,1).timestamp()
