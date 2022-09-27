@@ -1,1 +1,0 @@
-REST: Representational state transfer is a software architectural style that describes a uniform interface between physically separate components, often across the internet in a Clien-Server architecture. https://en.wikipedia.org/wiki/Representational_state_transfer
