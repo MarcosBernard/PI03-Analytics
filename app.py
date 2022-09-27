@@ -1,3 +1,6 @@
+# Etherium historical price
+from asyncio.base_futures import _FINISHED
+from turtle import title
 import streamlit as st
 import datetime
 import requests
@@ -8,9 +11,12 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 st.write("""
-# My first app
-Hello *world!*
+# FTX Market Trading app
 """)
+st.write("""
+## 1. ETH/US
+""")
+
 api_url = 'https://ftx.us/api'
 api = '/markets'
 url = api_url+api
@@ -18,9 +24,11 @@ markets = requests.get(url).json()
 
 # Historical data Etherium
 market_name = 'ETH/USD' # Select cryto currency
-resolution = 60*60*24*30 # Save time seconds
-start = datetime.datetime(2022,1,1).timestamp()
-path = f'/markets/{market_name}/candles?resolution={resolution}&start={start}'
+resolution = 60*60*24*15 # Save time seconds
+#start = datetime.datetime(2022,8,1).timestamp()
+
+#path = f'/markets/{market_name}/candles?resolution={resolution}&start={start}'
+path = f'/markets/{market_name}/candles?resolution={resolution}'
 url = api_url + path
 res = requests.get(url).json()
 df = pd.DataFrame(res['result'])
@@ -32,32 +40,7 @@ fig = go.Figure(data=[go.Candlestick(x=df['date'],
                 open=df['open'],
                 high=df['high'],
                 low=df['low'],
-                close=df['close'])]
-                ,title='ETG/USD')
+                close=df['close'])])
 fig.show()
 # Plot!
-st.plotly_chart(fig, use_container_width=True)
-
-
-# # Historical data Etherium
-# market_name = 'BTC/USD' # Select cryto currency
-# resolution = 60*60*24*30 # Save time seconds
-# start = datetime.datetime(2022,1,1).timestamp()
-# path = f'/markets/{market_name}/candles?resolution={resolution}&start={start}'
-# url = api_url + path
-# res = requests.get(url).json()
-# df = pd.DataFrame(res['result'])
-# df['date'] = pd.to_datetime(df['startTime'])
-# #df = df.set_index('date')
-# df = df.drop(columns=['startTime', 'time'])
-# #df
-# #mpf.plot(df.iloc[:,:],type='candle',style='charles',title='Etherium',ylabel='Price')
-
-# fig = go.Figure()
-
-# fig = go.Figure(data=[go.Candlestick(x=df['date'],
-#                 open=df['open'],
-#                 high=df['high'],
-#                 low=df['low'],
-#                 close=df['close'])])
-# fig.show()
+st.plotly_chart(fig, use_container_width=True,title='Hola')
