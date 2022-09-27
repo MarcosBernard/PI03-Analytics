@@ -1,13 +1,9 @@
 # Etherium historical price
-from asyncio.base_futures import _FINISHED
 from turtle import title
 import streamlit as st
 import datetime
 import requests
 import pandas as pd
-from client import FtxClient
-import mplfinance as mpf
-import plotly.express as px
 import plotly.graph_objects as go
 
 st.write("""
@@ -41,6 +37,6 @@ fig = go.Figure(data=[go.Candlestick(x=df['date'],
                 high=df['high'],
                 low=df['low'],
                 close=df['close'])])
-fig.show()
+#fig.show()
 # Plot!
 st.plotly_chart(fig, use_container_width=True,title='Hola')
