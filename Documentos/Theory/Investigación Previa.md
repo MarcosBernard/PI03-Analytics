@@ -164,6 +164,11 @@ Muestra vívidamente las acciones de los operadores a medida que pasa el tiempo 
 
 # 8. Palabras clave
 
+* [Volumen de transaccion](https://admiralmarkets.com/es/education/articles/forex-indicators/indicador-volumen): Para los traders del mercado de valores, la consulta de los volúmenes de negociación es un paso natural después de consultar los precios. El volumen puede revelar todo tipo de información útil que los precios no proporcionan.<br>
+Este indicador se utiliza para aislar las fases de calma y las fases de alta volatilidad en el mercado de divisas.<br>
+> * Un volumen alto sugiere un mayor interés y un mayor número de participantes. Igual que con el indicador de impulso, el indicador de volumen puede informarte sobre la fuerza que hay detrás de un movimiento de precios.
+> * Un volumen bajo de negociación indica un menor número de participantes e interés por el instrumento en cuestión. Los bajos volúmenes pueden revelar debilidad detrás de un movimiento de precios.
+
 * [REST](https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional): La transferencia de estado representacional o REST es un estilo de arquitectura software para sistemas hipermedia distribuidos como la World Wide Web.<br>
 * [WebSocket](https://es.wikipedia.org/wiki/WebSocket): WebSocket es una tecnología que proporciona un canal de comunicación bidireccional y full-duplex sobre un único socket TCP. Está diseñada para ser implementada en navegadores y servidores web, pero puede utilizarse por cualquier aplicación cliente/servidor.<br>
 * [API](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones): La interfaz de programación de aplicaciones, conocida también por la sigla API, en inglés, application programming interface, es un conjunto de subrutinas, funciones y procedimientos que ofrece cierta biblioteca para ser utilizada por otro software como una capa de abstracción.<br>
