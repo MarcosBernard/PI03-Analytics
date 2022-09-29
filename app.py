@@ -3,6 +3,7 @@ import streamlit as st
 import datetime
 import requests
 import pandas as pd
+import numpy as np
 from client import FtxClient
 import plotly.express as px
 import plotly.graph_objects as go
@@ -33,7 +34,14 @@ def historical_data(market_name_):
                     high=df['high'],
                     low=df['low'],
                     close=df['close'])])
-    return(st.plotly_chart(fig, use_container_width=True))
+    
+    df1 = pd.DataFrame( 
+        df['volume'], columns=["a"]
+    )
+    chart_data = df1
+
+    st.bar_chart(chart_data)
+    return(None)
 
 T = [
     'BTC-PERP','ETH-PERP','BTC/USD','ETH/USD','SOL-PERP',
